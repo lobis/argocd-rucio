@@ -11,7 +11,7 @@ spec:
 
   source:
     repoURL: https://github.com/lobis/argocd-rucio.git
-    targetRevision: master
+    targetRevision: main
     path: apps
 
   project: default
