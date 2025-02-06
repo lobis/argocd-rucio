@@ -17,10 +17,8 @@ spec:
     repoURL: https://github.com/lobis/argocd-rucio.git
   syncPolicy:
     automated:
-      allowEmpty: true
       prune: true
       selfHeal: true
     syncOptions:
-    - allowEmpty=true
     - CreateNamespace=true
 

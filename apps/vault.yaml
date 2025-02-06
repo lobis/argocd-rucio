@@ -15,13 +15,11 @@ spec:
   source:
     chart: vault
     repoURL: https://helm.releases.hashicorp.com
-    targetRevision: "0.29.1"
+    targetRevision: 0.29.1
   syncPolicy:
     automated:
-      allowEmpty: true
       prune: true
       selfHeal: true
     syncOptions:
-    - allowEmpty=true
     - CreateNamespace=true
 
