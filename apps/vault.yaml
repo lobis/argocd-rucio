@@ -13,8 +13,9 @@ spec:
     kind: Application
   project: default
   source:
-    path: vault
-    repoURL: https://github.com/lobis/argocd-rucio.git
+    chart: vault
+    repoURL: https://helm.releases.hashicorp.com
+    targetRevision: "0.29.1"
   syncPolicy:
     automated:
       allowEmpty: true
